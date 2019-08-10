@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjfwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54b0GbiDQ"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/23095ac206.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Welcome To Bryan's Portfolio</title>
+  </head>
+
+  <body id="bg-img">
+    <header>
+      <div class="icons-right">
+        <a href="https://twitter.com/dbaiaz">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/dbaiaz/">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/bryan-diaz/">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/dbaiaz">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+      </div>
+
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item current">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              Work
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="tweets.html" class="nav-link">
+              Tweets
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <article>
+        <h1 class="lg-heading">
+          Bryan
+          <span class="text-secondary">Diaz</span>
+        </h1>
+        <h2 class="sm-heading">
+          Programmer, Linguist, & Yogi
+        </h2>
+        <h3>
+          Welcome To My Portfolio
+        </h3>
+        <div class="small-font">
+          <p>
+            During your time here, feel free to comment and interact with other
+            visitors using the DISQUS platform available.
+          </p>
+          <p>
+            I've uploaded my recent project topics and some past experiences.
+          </p>
+          <p>
+            Go on and share your interests; drop your project links in the
+            comments section for others to see.
+          </p>
+          <p>Cheers!</p>
+        </div>
+
+        <!-- <img class="small" id="smart_thumbnail" src="" title="Bryan" /> -->
+      </article>
+
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+                      var disqus_config = function () {
+                      this.page.url = 'http://3.87.75.179/';  // Replace PAGE_URL with your page's canonical URL variable
+                      this.page.identifier = 'disqus_g0ePmnjLxW'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                      };
+                      */
+          (function() {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement("script");
+            s.src = "https://3-87-75-179.disqus.com/embed.js";
+            s.setAttribute("data-timestamp", +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+      </aside>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2019 Made by
+      <a href="https://twitter.com/dbaiaz" target="_blank">Bryan Diaz</a> for
+      <a href="https://www.holbertonschool.com" target="_blank"
+        >Holberton School</a
+      >
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

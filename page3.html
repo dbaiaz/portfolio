@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <script src="https://platform-api.sharethis.com/js/sharethis.js#property=5d329648a7d79100128cb7f2&product=inline-follow-buttons"></script>
+    <script src="behavior.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://www.holbertonschool.com/level2/holberton.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+
+    <title>Travels</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <header>
+      <div class="sharethis-inline-follow-buttons"></div>
+      <div class="logo">
+        <ul>
+          <li>&#10861;</li>
+        </ul>
+      </div>
+
+      <ul>
+        <li><a href="http://3.87.75.179/">Home</a></li>
+        <li><a href="http://3.87.75.179/page4.html">About</a></li>
+        <li><a href="http://3.87.75.179/tweets.html">Tweets</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <article>
+        <h1>Travels</h1>
+        <p>Contains content: text, links,images, tweets...</p>
+
+        <hr />
+
+        <img
+          class="small"
+          id="smart_thumbnail"
+          src="https://www.worldyouthadventures.com/croppedImages/Indian-Sub-Continent/India/Rishikesh-India-Himalaya-280879-800px.jpg"
+        />
+      </article>
+
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+          /**
+           *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+           *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+          /*
+                    var disqus_config = function () {
+                    this.page.url = 'http://3.87.75.179/';  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = 'disqus_g0ePmnjLxW'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+          (function() {
+            // DON'T EDIT BELOW THIS LINE
+            var d = document,
+              s = d.createElement("script");
+            s.src = "https://3-87-75-179.disqus.com/embed.js";
+            s.setAttribute("data-timestamp", +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript
+          >Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript"
+            >comments powered by Disqus.</a
+          ></noscript
+        >
+      </aside>
+    </main>
+
+    <footer>
+      <p>
+        Made by
+        <a href="https://twitter.com/dbaiaz" target="_blank">Bryan Diaz</a> for
+        <a href="https://www.holbertonschool.com" target="_blank"
+          >Holberton School</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
